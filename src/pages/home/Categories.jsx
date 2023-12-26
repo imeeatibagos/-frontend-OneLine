@@ -5,25 +5,25 @@ const categoryItems = [
     id: 1,
     title: "Vegetables",
     despriction: "(10 Items))",
-    image: "../../public/img/vege 1.png",
+    image: "/static/img/vege 1.png",
   },
   {
     id: 2,
     title: "Fruits",
     despriction: "(10 Items)",
-    image: "../../public/img/fruit.png",
+    image: "/static/img/fruit.png",
   },
   {
     id: 3,
     title: "Meat",
     despriction: "(10 Items)",
-    image: "../../public/img/meat.png",
+    image: "/static/img/meat.png",
   },
   {
     id: 4,
     title: "Drinks",
     despriction: "(10 Items)",
-    image: "../../public/img/drinks.png",
+    image: "/static/img/drinks.png",
   },
 ];
 

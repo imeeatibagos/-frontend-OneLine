@@ -1,20 +1,16 @@
 import React from "react";
-import grocery from "../../public/g.png";
 import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
     <div className="section-container bg-gradient-to-r from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
       <div className="py-24 flex flex-col md:flex-row-reverse justify-between items-center gap-8">
-        {/* {Image} */}
         <div className="md:w-1/2">
           <div>
-            <img src={grocery} alt="" />
+            <img src="/static/icon/g.png" alt="" />
           </div>
         </div>
-
-        {/* {texts} */}
-        <div className="md:w-1/2 space-y-4 px-5">
+        <div className="md:w-1/2 space-y-3 px-32">
           <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
             Fresh food, <span className="text-green">fast</span>
           </h2>

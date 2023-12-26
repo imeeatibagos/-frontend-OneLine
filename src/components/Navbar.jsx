@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Logo from "../../public/logo.png";
 import { FaUserAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -101,7 +100,7 @@ const Navbar = () => {
           </div>
 
           <a href="/" className=" lg:flex">
-            <img src={Logo} alt="" />{" "}
+            <img src="/static/icon/logo.png" alt="" />{" "}
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
