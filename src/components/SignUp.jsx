@@ -12,12 +12,16 @@ export const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [cpassword, setCpassword] = useState("");
+  const [address, setAddress] = useState("");
+  const [phone, setPhone] = useState("");
 
   const [fnameError, setFnameError] = useState(false);
   const [lnameError, setLnameError] = useState(false);
   const [emailError, setEmailError] = useState(false);
   const [passwordError, setPasswordError] = useState(false);
   const [cpasswordError, setCpasswordError] = useState(false);
+  const [addressError, setAddressError] = useState(false);
+  const [phoneError, setPhoneError] = useState(false);
 
   const promise = () => new Promise((resolve) => setTimeout(resolve, 1000));
 
@@ -29,6 +33,8 @@ export const SignUp = () => {
     setEmailError(false);
     setPasswordError(false);
     setCpasswordError(false);
+    setAddressError(false);
+    setPhoneError(false);
 
     const fields = [
       {
@@ -55,6 +61,16 @@ export const SignUp = () => {
         value: first_name,
         setError: setFnameError,
         message: "First name is required",
+      },
+      {
+        value: address,
+        setError: setAddressError,
+        message: "Address is required",
+      },
+      {
+        value: phone,
+        setError: setPhoneError,
+        message: "Phone Number is required",
       },
     ];
 
@@ -123,21 +139,22 @@ export const SignUp = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-tl from-primaryColor to-secondaryColor">
+      <div className="bg-gradient-to-tl from-primary to-secondary">
         <Toaster position="top-center" closeButton richColors />
-        <div className="py-16 px-80 h-screen">
-          <div className="bg-slate-50 h-full rounded-2xl flex justify-between items-center relative">
+        <div className="py-9 px-80 h-screen">
+          <div className="bg-slate-50 h-full rounded-2xl flex justify-center items-center relative ">
             <Link to="/">
               <IoCloseCircle
                 size={25}
-                className="text-primaryColor absolute top-3 right-5 hover:text-opacity-85"
+                className="text-green absolute top-3 right-5 hover:text-opacity-85"
               />
             </Link>
+            <img src="../../public/static/img/fruit.png" alt="" />
             <div className="p-5 w-full">
               <form>
                 <div className="flex flex-col gap-5">
                   <div className="flex flex-col items-center">
-                    <p className="font-medium">Create an account</p>
+                    <p className="font-bold text-2xl">Create an account</p>
                   </div>
                   <div className="flex flex-col gap-5">
                     <div className="flex gap-3">
@@ -172,6 +189,28 @@ export const SignUp = () => {
                       placeholder="Email"
                       className={` ${
                         emailError
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                      }`}
+                    />
+                    <input
+                      type="text"
+                      value={address}
+                      onChange={(e) => setAddress(e.target.value)}
+                      placeholder="Address"
+                      className={` ${
+                        addressError
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                      }`}
+                    />
+                    <input
+                      type="text"
+                      value={phone}
+                      onChange={(e) => setPhone(e.target.value)}
+                      placeholder="Phone Number"
+                      className={` ${
+                        phoneError
                           ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
                           : "rounded-lg shadow-2xl px-5 py-2  w-full"
                       }`}
@@ -212,7 +251,7 @@ export const SignUp = () => {
                         onClick={handleSignUp}
                         className="bg-green py-2 px-10 rounded-lg hover:bg-opacity-75 font-bold text-white text-center items-center justify-center shadow-2xl cursor-pointer"
                       >
-                        <Link to="/menu"> Register</Link>
+                        Register
                       </div>
                     </div>
                   </div>

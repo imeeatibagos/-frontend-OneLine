@@ -96,21 +96,26 @@ export const Login = () => {
 
   return (
     <>
-      <div className="bg-gradient-to-tl from-primaryColor to-secondaryColor">
+      <div className="bg-gradient-to-tl from-primary to-secondary">
         <Toaster position="top-center" closeButton richColors />
         <div className="py-16 px-80 h-screen">
-          <div className="bg-slate-50 h-full rounded-2xl flex justify-between items-center relative">
+          <div className="bg-slate-200 h-full rounded-2xl flex justify-end items-center relative">
             <Link to="/">
               <IoCloseCircle
                 size={25}
                 className="text-green absolute top-3 right-5 hover:text-opacity-85"
               />
             </Link>
+            <img
+              src="../../public/static/img/drinks.png"
+              alt=""
+              className="h-96"
+            />
             <div className="p-5 w-full">
               <form>
                 <div className="flex flex-col gap-2">
                   <div className="flex flex-col items-center">
-                    <p className="font-medium">Create an account</p>
+                    <p className="font-bold text-2xl">Login your account</p>
                   </div>
                   <div className="flex flex-col gap-3">
                     <div className="flex gap-3"></div>
@@ -137,7 +142,7 @@ export const Login = () => {
                       }`}
                     />
 
-                    <div>
+                    <div className="flex flex-col gap-4">
                       <p className="text-sm">
                         Already have an account?
                         <Link to="/signup">
@@ -157,13 +162,6 @@ export const Login = () => {
                   </div>
                 </div>
               </form>
-            </div>
-            <div className="p-5 w-full">
-              <img
-                src="/static/icons/Boy.png"
-                alt="image"
-                className="w-full rounded-2xl shadow-2xl"
-              />
             </div>
           </div>
         </div>
