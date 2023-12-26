@@ -151,7 +151,7 @@ const Navbar = () => {
           {/* {btn} */}
           <a className="btn lg:flex bg-green rounded-full px-7  text-white flex items-center gap-2">
             <FaUserAlt />
-            <Link to="signin">Login</Link>
+            <Link to="/login">Login</Link>
           </a>
         </div>
       </div>

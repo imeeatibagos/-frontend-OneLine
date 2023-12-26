@@ -18,7 +18,7 @@ const Banner = () => {
             From farm to fridge in a flash.
           </p>
           <button className="btn bg-green px-8 py-3 mt-6 font-semibold text-white rounded-full ">
-            <Link to="/signin"> Order Now</Link>
+            <Link to="/signup"> Order Now</Link>
           </button>
         </div>
       </div>

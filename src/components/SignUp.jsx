@@ -135,11 +135,11 @@ export const SignUp = () => {
             </Link>
             <div className="p-5 w-full">
               <form>
-                <div className="flex flex-col gap-2">
+                <div className="flex flex-col gap-5">
                   <div className="flex flex-col items-center">
                     <p className="font-medium">Create an account</p>
                   </div>
-                  <div className="flex flex-col gap-3">
+                  <div className="flex flex-col gap-5">
                     <div className="flex gap-3">
                       <input
                         id="fname"
@@ -150,7 +150,7 @@ export const SignUp = () => {
                         className={` ${
                           fnameError
                             ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                            : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                            : "rounded-lg shadow-2xl px-5 py-2  w-full "
                         }`}
                       />
                       <input
@@ -198,7 +198,7 @@ export const SignUp = () => {
                           : "rounded-lg shadow-2xl px-5 py-2  w-full"
                       }`}
                     />
-                    <div>
+                    <div className="flex flex-col gap-4">
                       <p className="text-sm">
                         Already have an account?
                         <Link to="/login">
@@ -210,9 +210,9 @@ export const SignUp = () => {
                       </p>
                       <div
                         onClick={handleSignUp}
-                        className="bg-primaryColor py-2 px-10 rounded-lg hover:bg-opacity-75 font-bold text-white text-center items-center justify-center shadow-2xl cursor-pointer"
+                        className="bg-green py-2 px-10 rounded-lg hover:bg-opacity-75 font-bold text-white text-center items-center justify-center shadow-2xl cursor-pointer"
                       >
-                        Register
+                        <Link to="/menu"> Register</Link>
                       </div>
                     </div>
                   </div>

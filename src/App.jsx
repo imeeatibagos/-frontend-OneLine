@@ -3,6 +3,7 @@ import { SignUp } from "./components/SignUp";
 import Home from "./pages/home/Home";
 import Menu from "./shop/Menu";
 import { Login } from "./components/Login";
+import Catagories from "./pages/home/Categories";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/menu" element={<Menu />} />
           <Route path="/signup" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/categories" element={<Catagories />} />
         </Routes>
       </Routers>
     </>
