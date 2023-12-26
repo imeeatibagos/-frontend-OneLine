@@ -83,22 +83,11 @@ const Menu = () => {
   return (
     <div>
       {/* menu banner */}
-      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 bg-gradient-to-r from-0% from-[#FAFAFA] to-[#FCFCFC] to-100%">
-        <div className="py-48 flex flex-col items-center justify-center">
-          {/* content */}
-          <div className=" text-center px-4 space-y-7">
-            <h2 className="md:text-5xl text-4xl font-bold md:leading-snug leading-snug">
-              For the Love of Delicious <span className="text-green">Food</span>
-            </h2>
-            <p className="text-[#4A4A4A] text-xl md:w-4/5 mx-auto">
-              Come with family & feel the joy of mouthwatering food such as
-              Greek Salad, Lasagne, Butternut Pumpkin, Tokusen Wagyu, Olivas
-              Rellenas and more for a moderate cost
-            </p>
-            <button className="bg-green font-semibold btn text-white px-8 py-3 rounded-full">
-              Order Now
-            </button>
-          </div>
+
+      <div className="max-w-screen-2xl container mx-auto xl:px-24 px-4 py-16">
+        <div className="text-center">
+          <p className="subtitle">Shop by</p>
+          <h2 className="title">Categories</h2>
         </div>
       </div>
 
@@ -114,29 +103,24 @@ const Menu = () => {
               All
             </button>
             <button
-              onClick={() => filterItems("salad")}
-              className={selectedCategory === "salad" ? "active" : ""}
+              onClick={() => filterItems("vegetable")}
+              className={selectedCategory === "vegetable" ? "active" : ""}
             >
-              Salad
+              Vegetables
             </button>
             <button
-              onClick={() => filterItems("pizza")}
-              className={selectedCategory === "pizza" ? "active" : ""}
+              onClick={() => filterItems("fruits")}
+              className={selectedCategory === "fruits" ? "active" : ""}
             >
-              Pizza
+              Fruits
             </button>
             <button
-              onClick={() => filterItems("soup")}
-              className={selectedCategory === "soup" ? "active" : ""}
+              onClick={() => filterItems("meat")}
+              className={selectedCategory === "meat" ? "active" : ""}
             >
-              Soups
+              Meat
             </button>
-            <button
-              onClick={() => filterItems("dessert")}
-              className={selectedCategory === "dessert" ? "active" : ""}
-            >
-              Desserts
-            </button>
+
             <button
               onClick={() => filterItems("drinks")}
               className={selectedCategory === "drinks" ? "active" : ""}
@@ -147,14 +131,14 @@ const Menu = () => {
 
           {/* filter options */}
           <div className="flex justify-end mb-4 rounded-sm">
-            <div className="bg-black p-2 ">
+            <div className="bg-secondary p-2 ">
               <FaFilter className="text-white h-4 w-4" />
             </div>
             <select
               id="sort"
               onChange={(e) => handleSortChange(e.target.value)}
               value={sortOption}
-              className="bg-black text-white px-2 py-1 rounded-sm"
+              className="bg-slate-300 text-black px-2 py-1 rounded-sm"
             >
               <option value="default"> Default</option>
               <option value="A-Z">A-Z</option>
