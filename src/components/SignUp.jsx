@@ -151,11 +151,13 @@ export const SignUp = () => {
                 className="text-green absolute top-3 right-5 hover:text-opacity-85"
               />
             </Link>
-            <img
-              src="../../public/static/img/fruit.png"
-              alt=""
-              className="w-96 h-80 items-center justify-center"
-            />
+            <div className="shadow-md">
+              <img
+                src="../../public/static/img/fruit.png"
+                alt=""
+                className="w-100 h-80 items-center justify-center"
+              />
+            </div>
             <div className="p-5 w-full">
               <form>
                 <div className="flex flex-col gap-5">

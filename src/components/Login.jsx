@@ -106,11 +106,13 @@ export const Login = () => {
                 className="text-green absolute top-3 right-5 hover:text-opacity-85"
               />
             </Link>
-            <img
-              src="../../public/static/img/drinks.png"
-              alt=""
-              className="w-96 h-80 items-center justify-center"
-            />
+            <div className="shadow-2xl">
+              <img
+                src="../../public/static/img/drinks.png"
+                alt=""
+                className="w-96 h-80 items-center justify-center"
+              />
+            </div>
             <div className="p-5 w-full">
               <form>
                 <div className="gap-2">
