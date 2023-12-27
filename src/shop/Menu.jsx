@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-
 import { FaFilter } from "react-icons/fa";
 import Cards from "../components/Cards";
-import Catagories from "../pages/home/Categories";
 
 const Menu = () => {
   const [menu, setMenu] = useState([]);

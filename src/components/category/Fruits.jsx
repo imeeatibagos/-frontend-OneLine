@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 import Cards from "../Cards";
 
-export const Vegetables = () => {
+export const Fruits = () => {
   const [menu, setMenu] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
   const [sortOption, setSortOption] = useState("default");
@@ -18,7 +18,7 @@ export const Vegetables = () => {
 
         // Filter only the "vegetable" category
         const vegetableItems = data.filter(
-          (item) => item.category === "vegetable"
+          (item) => item.category === "fruits"
         );
 
         setMenu(data);
@@ -33,7 +33,7 @@ export const Vegetables = () => {
 
   const filterItems = (category) => {
     const filtered =
-      category === "vegetable"
+      category === "fruits"
         ? menu
         : menu.filter((item) => item.category === category);
 

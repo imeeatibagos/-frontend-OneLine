@@ -342,43 +342,43 @@
   },
   {
     "_id": "642c155b2c4774f05c36ee85",
-    "name": "Tuna Niçoise",
-    "des": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
+    "name": "Carrots",
+    "des": "Sweet and juicy flavor: Our carrots are naturally sweet and have a delicious, earthy taste",
     "image": "/images/dess/img2.png",
-    "category": "dessert",
-    "price": 10.5
+    "category": "vegetables",
+    "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee93",
-    "name": "Tuna Niçoise",
-    "des": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
+    "name": "Oranges",
+    "des": "Fresh from sun-drenched groves, these oranges haven't seen the inside of a refrigerated truck. They're bursting with the vibrant energy of the orchard, every bite a testament to the care and passion poured into their growth",
     "image": "/images/dess/img3.png",
-    "category": "pizza",
-    "price": 10.5
+    "category": "fruits",
+    "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee95",
-    "name": "Chicken and Walnut Salad",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
+    "name": "pork tocino",
+    "des": "Wake up your taste buds with a Filipino breakfast legend! Our pork tocino isn't just bacon's sweeter cousin, it's a flavor fiesta. Tender strips of pork belly, marinated in a secret blend of garlic, sugar, and spices, caramelize to a rich, mahogany glory. Each bite is a sweet-salty tango, exploding with savory undertones and begging for fluffy garlic rice and a runny egg.",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 13.5
+    "category": "meats",
+    "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee9b",
-    "name": "Goats Cheese Pizza",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "name": "Shrimp",
+    "des": "Dive into delicious with these plump, juicy shrimp! Freshly caught and ready to cook, they burst with pure ocean flavor in every bite. Perfect for quick grills, flavorful stir-fries, or elegant scampi - you choose the adventure!",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 14.5
+    "category": "seafood",
+    "price": 16
   },
   {
     "_id": "642c155b2c4774f05c36eeb7",
-    "name": "Fish Parmentier",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
+    "name": "mogu mogu",
+    "des": "Escape to paradise with mogu mogu. A tropical blend of mango, pineapple, and banana, it's sunshine in a cup. Thick and creamy, it's a taste of summer vacation, anytime you need it.",
     "image": "/images/dess/img1.png",
-    "category": "soup",
-    "price": 9.5
+    "category": "drinks",
+    "price": 
   },
   {
     "_id": "642c155b2c4774f05c36ee9c",
