@@ -2,6 +2,7 @@ import React from "react";
 
 import "../../../src/App.css";
 import { Link, useNavigate } from "react-router-dom";
+import Navbar from "../../components/Navbar";
 
 const categoryItems = [
   {
@@ -50,6 +51,7 @@ const Categories = () => {
 
   return (
     <div className="header">
+      <Navbar />
       <div className="section-container bg-gradient-to-r h-screen from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
         <div className="text-center">
           <p className="subtitle">Shop by</p>

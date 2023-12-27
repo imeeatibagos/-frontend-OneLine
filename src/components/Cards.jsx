@@ -2,13 +2,38 @@ import React, { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Cards = ({ item }) => {
-  // console.log(item)
+const Cards = ({ item, onAddToCart }) => {
   const [isHeartFilled, setIsHeartFilled] = useState(false);
 
   const handleHeartClick = () => {
     setIsHeartFilled(!isHeartFilled);
   };
+
+  const handleAddToCart = (item) => {
+    if (user && user?.email) {
+      const cartItem = {
+        id: _id,
+        name,
+        quantity: 1,
+        image,
+        price,
+        image: user.email,
+      };
+      fetch("", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(users),
+      })
+        .then((res) => res.json())
+        .then((data) => {
+          console.log(data);
+        });
+    }
+    onAddToCart(item);
+  };
+
   return (
     <div
       to={`/menu/${item._id}`}
@@ -47,7 +72,15 @@ const Cards = ({ item }) => {
           <h5 className="font-semibold">
             <span className="text-sm text-red">&#8369; </span> {item.price}
           </h5>
-          <button className="btn bg-green text-white">Add to Cart </button>
+          <Link to="/addcart">
+            {" "}
+            <button
+              className="btn bg-green text-white"
+              onClick={handleAddToCart}
+            >
+              Add to Cart
+            </button>
+          </Link>
         </div>
       </div>
     </div>

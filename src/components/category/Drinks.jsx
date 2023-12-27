@@ -1,13 +1,14 @@
 import { useEffect, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 import Cards from "../Cards";
+import Navbar from "../Navbar";
 
 export const Drinks = () => {
   const [menu, setMenu] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
   const [sortOption, setSortOption] = useState("default");
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(8); // Number of items to display per page
+  const [itemsPerPage] = useState(4); // Number of items to display per page
 
   useEffect(() => {
     // Fetch data from the backend
@@ -83,6 +84,7 @@ export const Drinks = () => {
 
   return (
     <div>
+      <Navbar />
       <div className="section-container">
         <div className="flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8">
           <div className="flex justify-end mb-4 rounded-sm">

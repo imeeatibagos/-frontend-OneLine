@@ -9,6 +9,8 @@ import { Vegetables } from "./components/category/Vegetables";
 import { Fruits } from "./components/category/Fruits";
 import { Meat } from "./components/category/Meat";
 import { Drinks } from "./components/category/Drinks";
+import AddCart from "./shop/AddCart";
+import { CartPage } from "./shop/CartPage";
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route path="/fruits" element={<Fruits />} />
           <Route path="/meat" element={<Meat />} />
           <Route path="/drinks" element={<Drinks />} />
+          <Route path="/cart-page" element={<CartPage />} />
         </Routes>
       </Routers>
     </>

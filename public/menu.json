@@ -376,104 +376,104 @@
     "_id": "642c155b2c4774f05c36eeb7",
     "name": "mogu mogu",
     "des": "Escape to paradise with mogu mogu. A tropical blend of mango, pineapple, and banana, it's sunshine in a cup. Thick and creamy, it's a taste of summer vacation, anytime you need it.",
-    "image": "/images/dess/img1.png",
+    "image": "/images/dess/mogu.png",
     "category": "drinks",
     "price": 30
   },
   {
     "_id": "642c155b2c4774f05c36ee9c",
-    "name": "Breton Fish Stew",
-    "des": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+    "name": "Sayote",
+    "des": "Sayote is a type of squash that has a mild, slightly sweet flavor and a crisp, refreshing texture. It can be eaten raw, cooked, or pickled, and it's a great addition to salads, stir-fries, and soups.",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 12.9
+    "category": "vegetables",
+    "price": 12
   },
   {
     "_id": "642c155b2c4774f05c36ee9d",
-    "name": "Goats Cheese Pizza",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "name": "Banana",
+    "des": "Naturally sweet and luscious: Far from bland or starchy, these bananas are a tropical candy cane, bursting with honeyed goodness.",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 14.5
+    "category": "fruits",
+    "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36eeac",
-    "name": "Roasted Pork Belly",
-    "des": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+    "name": "Rib eye steak",
+    "des": "A cut of beef from the rib section, known for its tenderness, juiciness, and rich flavor.",
     "image": "/images/dess/img1.png",
-    "category": "salad",
-    "price": 14.5
+    "category": "meats",
+    "price": 100
   },
   {
     "_id": "642c155b2c4774f05c36eeb4",
-    "name": "Haddock",
-    "des": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
+    "name": "Dried Marot",
+    "des": "Salted and sun-dried, or sometimes smoked, until completely dry and hard.",
     "image": "/images/dess/img1.png",
     "category": "soup",
-    "price": 14.7
+    "price": 239
   },
   {
     "_id": "642c155b2c4774f05c36ee98",
-    "name": "Breton Fish Stew",
-    "des": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+    "name": "Vitasoy",
+    "des": "Vitasoy is a brand of beverages and desserts, primarily known for its soy milk drinks.",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 12.9
+    "category": "drinks",
+    "price": 25
   },
   {
     "_id": "642c155b2c4774f05c36ee82",
-    "name": "Escalope de Veau",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+    "name": "Ampalaya",
+    "des": "Ampalaya is incredibly versatile and can be sautéed, stir-fried, stewed, grilled, or stuffed.",
     "image": "/images/dess/img1.png",
-    "category": "offered",
-    "price": 12.5
+    "category": "vegetables",
+    "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee86",
-    "name": "Escalope de Veau",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
+    "name": "Grapes",
+    "des": "Grapes are a versatile and delicious fruit, enjoyed fresh, dried, and in various processed forms like juice, jam, and wine",
     "image": "/images/dess/img1.png",
-    "category": "dessert",
-    "price": 12.5
+    "category": "fruits",
+    "price": 100
   },
   {
     "_id": "642c155b2c4774f05c36ee9a",
-    "name": "Breton Fish Stew",
-    "des": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
+    "name": "Beef Tapa",
+    "des": "Beef tapa is a savory Filipino dish of thinly sliced marinated beef, traditionally served as part of a breakfast combination called tapsilog",
     "image": "/images/dess/img1.png",
-    "category": "pizza",
-    "price": 12.9
+    "category": "meats",
+    "price": 390
   },
   {
     "_id": "642c155b2c4774f05c36eeab",
-    "name": "Goats Cheese Pizza",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "name": "Mixed Seafoods",
+    "des": "Consists of a combination of shellfish like shrimp, scallops, mussels, clams, and calamari,",
     "image": "/images/dess/img1.png",
-    "category": "salad",
-    "price": 14.5
+    "category": "seafoods",
+    "price": 395
   },
   {
     "_id": "642c155b2c4774f05c36eeb1",
-    "name": "Fish Parmentier",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
+    "name": "Dutchmill",
+    "des": "Dutch Mill is a popular brand of fruit-flavored drinks nown for their vibrant colors, refreshing taste, and wide variety of flavors. ",
     "image": "/images/dess/img1.png",
-    "category": "soup",
-    "price": 9.5
+    "category": "drinks",
+    "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36eead",
-    "name": "Roast Duck Breast",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
+    "name": "Okra",
+    "des": "Okra is a fascinating fruit with delicious and nutritious qualities",
     "image": "/images/dess/img1.png",
-    "category": "soup",
-    "price": 14.5
+    "category": "vegetables",
+    "price": 5
   },
   {
     "_id": "642c155b2c4774f05c36eeae",
-    "name": "Tuna Niçoise",
-    "des": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
+    "name": "Mango",
+    "des": "A beloved tropical fruit enjoyed around the world for its vibrant colors, luscious sweetness, and versatility. ",
     "image": "/images/dess/img1.png",
-    "category": "soup",
-    "price": 10.5
+    "category": "fruits",
+    "price": 10
   }
 ]

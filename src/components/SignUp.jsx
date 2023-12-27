@@ -94,7 +94,7 @@ export const SignUp = () => {
         setCpasswordError(true);
       } else {
         try {
-          let response = await fetch(`${apiURL}/OneLine/public/api/signup`, {
+          let response = await fetch(`${apiURL}/oneline/public/api/signup`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -105,6 +105,8 @@ export const SignUp = () => {
               first_name,
               last_name,
               email,
+              address,
+              phone,
               password,
             }),
           });

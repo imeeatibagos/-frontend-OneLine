@@ -53,7 +53,7 @@ export const Login = () => {
         setPasswordError(true);
       } else {
         try {
-          let response = await fetch(`${apiURL}/OneLine/public/api/login`, {
+          let response = await fetch(`${apiURL}/oneline/public/api/login`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -77,7 +77,7 @@ export const Login = () => {
               error: "Error",
             });
             setTimeout(() => {
-              nav("/");
+              nav("/categories");
             }, 1200);
           } else if (
             response.status === 422 &&
@@ -147,7 +147,6 @@ export const Login = () => {
                         Already have an account?
                         <Link to="/signup">
                           <span className="text-primaryColor font-bold hover:text-opacity-85">
-                            {" "}
                             Signup
                           </span>
                         </Link>
