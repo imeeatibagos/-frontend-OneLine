@@ -1,15 +1,14 @@
 import React from "react";
-
-import Catagories from "./Categories";
 import Banner from "../../components/Banner";
 import Navbar from "../../components/Navbar";
+import BestSellers from "../../components/BestSellers";
 
 const Home = () => {
   return (
     <div>
       <Navbar />
       <Banner />
-      {/* <Catagories /> */}
+      <BestSellers />
     </div>
   );
 };

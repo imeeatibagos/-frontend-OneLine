@@ -98,7 +98,7 @@ export const Login = () => {
     <>
       <div className="bg-gradient-to-tl from-primary to-secondary">
         <Toaster position="top-center" closeButton richColors />
-        <div className="py-16 px-80 h-screen">
+        <div className=" py-40 px-60 items-center justify-center relative ">
           <div className="bg-slate-200 h-full rounded-2xl flex justify-end items-center relative">
             <Link to="/">
               <IoCloseCircle
@@ -109,13 +109,13 @@ export const Login = () => {
             <img
               src="../../public/static/img/drinks.png"
               alt=""
-              className="h-96"
+              className="w-96 h-80 items-center justify-center"
             />
             <div className="p-5 w-full">
               <form>
-                <div className="flex flex-col gap-2">
-                  <div className="flex flex-col items-center">
-                    <p className="font-bold text-2xl">Login your account</p>
+                <div className="gap-2">
+                  <div className="flex flex-col items-center ">
+                    <p className="font-bold text-2xl">Login your Account</p>
                   </div>
                   <div className="flex flex-col gap-3">
                     <div className="flex gap-3"></div>
@@ -126,8 +126,8 @@ export const Login = () => {
                       placeholder="Email"
                       className={` ${
                         emailError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 "
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full text-[14px]"
                       }`}
                     />
                     <input
@@ -138,7 +138,7 @@ export const Login = () => {
                       className={` ${
                         passwordError
                           ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full text-[14px]"
                       }`}
                     />
 
@@ -152,12 +152,14 @@ export const Login = () => {
                           </span>
                         </Link>
                       </p>
-                      <div
-                        onClick={handleLogin}
-                        className="bg-green py-2 px-10 rounded-lg hover:bg-opacity-75 font-bold text-white text-center items-center justify-center shadow-2xl cursor-pointer"
-                      >
-                        Login
-                      </div>
+                      <Link to="/categories">
+                        <div
+                          onClick={handleLogin}
+                          className="bg-green py-2 px-10 rounded-lg hover:bg-opacity-75 font-bold text-white text-center items-center justify-center shadow-2xl cursor-pointer"
+                        >
+                          Login
+                        </div>
+                      </Link>
                     </div>
                   </div>
                 </div>

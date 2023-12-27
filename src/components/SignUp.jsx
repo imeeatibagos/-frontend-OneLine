@@ -141,20 +141,24 @@ export const SignUp = () => {
     <>
       <div className="bg-gradient-to-tl from-primary to-secondary">
         <Toaster position="top-center" closeButton richColors />
-        <div className="py-9 px-80 h-screen">
-          <div className="bg-slate-50 h-full rounded-2xl flex justify-center items-center relative ">
+        <div className="py-10 px-60 ">
+          <div className="bg-slate-200 h-full rounded-2xl flex justify-center items-center relative ">
             <Link to="/">
               <IoCloseCircle
                 size={25}
                 className="text-green absolute top-3 right-5 hover:text-opacity-85"
               />
             </Link>
-            <img src="../../public/static/img/fruit.png" alt="" />
+            <img
+              src="../../public/static/img/fruit.png"
+              alt=""
+              className="w-96 h-80 items-center justify-center"
+            />
             <div className="p-5 w-full">
               <form>
                 <div className="flex flex-col gap-5">
                   <div className="flex flex-col items-center">
-                    <p className="font-bold text-2xl">Create an account</p>
+                    <p className="font-bold text-2xl">Create an Account</p>
                   </div>
                   <div className="flex flex-col gap-5">
                     <div className="flex gap-3">
@@ -166,8 +170,8 @@ export const SignUp = () => {
                         placeholder="First Name"
                         className={` ${
                           fnameError
-                            ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                            : "rounded-lg shadow-2xl px-5 py-2  w-full "
+                            ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px] "
+                            : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[13px]"
                         }`}
                       />
                       <input
@@ -177,8 +181,8 @@ export const SignUp = () => {
                         placeholder="Last Name"
                         className={` ${
                           lnameError
-                            ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                            : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                            ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px]"
+                            : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                         }`}
                       />
                     </div>
@@ -189,8 +193,8 @@ export const SignUp = () => {
                       placeholder="Email"
                       className={` ${
                         emailError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px]"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                       }`}
                     />
                     <input
@@ -200,8 +204,8 @@ export const SignUp = () => {
                       placeholder="Address"
                       className={` ${
                         addressError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px] "
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                       }`}
                     />
                     <input
@@ -211,8 +215,8 @@ export const SignUp = () => {
                       placeholder="Phone Number"
                       className={` ${
                         phoneError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px]"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                       }`}
                     />
                     <input
@@ -222,8 +226,8 @@ export const SignUp = () => {
                       placeholder="Password"
                       className={` ${
                         passwordError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px] "
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                       }`}
                     />
                     <input
@@ -233,8 +237,8 @@ export const SignUp = () => {
                       placeholder="Confirm Password"
                       className={` ${
                         cpasswordError
-                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500"
-                          : "rounded-lg shadow-2xl px-5 py-2  w-full"
+                          ? "rounded-lg shadow-2xl px-5 py-2  w-full border border-red-500 text-[14px]"
+                          : "rounded-lg shadow-2xl px-5 py-2  w-full  text-[14px]"
                       }`}
                     />
                     <div className="flex flex-col gap-4">

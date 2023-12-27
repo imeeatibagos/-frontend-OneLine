@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-const Cards = ({ item }) => {
+const CardSellers = ({ item }) => {
   // console.log(item)
   const [isHeartFilled, setIsHeartFilled] = useState(false);
 
@@ -12,10 +12,10 @@ const Cards = ({ item }) => {
   return (
     <div
       to={`/menu/${item._id}`}
-      className="card shadow-2xl relative mr-5 md:my-5"
+      className="card shadow-2xl relative mr-5 md:my-5 gap-2"
     >
       <div
-        className={`rating gap-1 absolute right-2 top-2 p-4 rounded-bl-[20px]  rounded-tr-[20px] heartStar bg-green ${
+        className={`rating gap-1 absolute right-2 top-2 p-4 rounded-bl-[20px]  rounded-tr-[20px]  heartStar bg-green ${
           isHeartFilled ? "text-rose-500" : "text-white"
         }`}
         onClick={handleHeartClick}
@@ -27,7 +27,7 @@ const Cards = ({ item }) => {
           <img
             src={item.image}
             alt=""
-            className="hover:scale-105 transition-all duration-300 md:h-72"
+            className="hover:scale-105 transition-all duration-300 md:h-72 mt-0"
           />
         </figure>
       </Link>
@@ -43,15 +43,19 @@ const Cards = ({ item }) => {
             </p>
           </Link>
         </div>
-        <div className="card-actions justify-between items-center mt-2">
+        <div className="card-actions justify-between items-center mt-0  ">
           <h5 className="font-semibold">
-            <span className="text-sm text-red">&#8369; </span> {item.price}
+            <span className="text-sm text-red"> </span>
           </h5>
-          <button className="btn bg-green text-white">Add to Cart </button>
+          <Link to="/signup">
+            <button className="btn bg-green text-white">
+              &#8369; {item.price}{" "}
+            </button>
+          </Link>
         </div>
       </div>
     </div>
   );
 };
 
-export default Cards;
+export default CardSellers;

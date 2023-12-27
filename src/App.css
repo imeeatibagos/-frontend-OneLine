@@ -4,6 +4,9 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+#header {
+  z-index: 1001 !important;
+}
 .header {
   z-index: 1001 !important;
 }
@@ -17,4 +20,30 @@ body {
 
 .title {
   @apply text-4xl md:text-5xl font-bold my-2 md:leading-snug leading-snug;
+}
+
+.slick-slider {
+  /* background-color: aquamarine; */
+  /* padding-left: 30px; */
+  /* height: 480px !important; */
+}
+
+.slick-prev {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+.slick-next {
+  z-index: 1;
+  /* background-color: red !important; */
+}
+
+.slick-dots li button:before {
+  color: rgb(179, 178, 178) !important;
+  font-size: 10px !important;
+  margin-top: 10px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: white !important;
+  /* font-size: 12px !important; */
 }

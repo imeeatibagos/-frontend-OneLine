@@ -1,13 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
+import { FaFilter } from "react-icons/fa6";
+import Cards from "../Cards";
 
-import { FaFilter } from "react-icons/fa";
-import Cards from "../components/Cards";
-import Catagories from "../pages/home/Categories";
-
-const Menu = () => {
+export const All = () => {
   const [menu, setMenu] = useState([]);
   const [filteredItems, setFilteredItems] = useState([]);
-  const [selectedCategory, setSelectedCategory] = useState("all");
   const [sortOption, setSortOption] = useState("default");
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage] = useState(8); // Number of items to display per page
@@ -83,47 +80,8 @@ const Menu = () => {
 
   return (
     <div>
-      {/* menu shop  */}
       <div className="section-container">
         <div className="flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8">
-          {/* all category buttons */}
-          <div className="flex flex-row justify-start md:items-center md:gap-8 gap-4  flex-wrap">
-            <button
-              onClick={showAll}
-              className={selectedCategory === "all" ? "active" : ""}
-            >
-              All
-            </button>
-            <button
-              onClick={() => filterItems("vegetable")}
-              className={selectedCategory === "vegetable" ? "active" : ""}
-            >
-              Vegetables
-            </button>
-            <button
-              onClick={() => filterItems("fruits")}
-              className={selectedCategory === "fruits" ? "active" : ""}
-            >
-              Fruits
-            </button>
-            <button
-              onClick={() => filterItems("meat and seafood")}
-              className={
-                selectedCategory === "meat and seafood" ? "active" : ""
-              }
-            >
-              Meat and Seafood
-            </button>
-
-            <button
-              onClick={() => filterItems("drinks")}
-              className={selectedCategory === "drinks" ? "active" : ""}
-            >
-              Drinks
-            </button>
-          </div>
-
-          {/* filter options */}
           <div className="flex justify-end mb-4 rounded-sm">
             <div className="bg-secondary p-2 ">
               <FaFilter className="text-white h-4 w-4" />
@@ -170,5 +128,3 @@ const Menu = () => {
     </div>
   );
 };
-
-export default Menu;
