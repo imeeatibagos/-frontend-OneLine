@@ -147,7 +147,7 @@
     "_id": "642c155b2c4774f05c36eea4",
     "name": "Sayote",
     "des": "Sayote is a type of squash that has a mild, slightly sweet flavor and a crisp, refreshing textur",
-    "image": "../public/static/img/img1.png",
+    "image": "../../public/static/img/sayote.png",
     "category": "salad",
     "price": 20
   },
@@ -345,9 +345,9 @@
   },
   {
     "_id": "642c155b2c4774f05c36ee85",
-    "name": "Carrots",
-    "des": "Sweet and juicy flavor: Our carrots are naturally sweet and have a delicious, earthy taste",
-    "image": "../public/static/img/carrots.png",
+    "name": "Cauliflower",
+    "des": "Unleash the Floret Power: Cauliflower, More Than Just Bland and Boring",
+    "image": "../public/static/img/cauliflower.png",
     "category": "vegetables",
     "price": 10
   },
@@ -410,7 +410,7 @@
     "_id": "642c155b2c4774f05c36eeb4",
     "name": "Dried Marot",
     "des": "Salted and sun-dried, or sometimes smoked, until completely dry and hard.",
-    "image": "../public/static/img/dried.png",
+    "image": "../public/static/img/Dried Marot.png",
     "category": "soup",
     "price": 239
   },
@@ -466,7 +466,7 @@
     "_id": "642c155b2c4774f05c36eead",
     "name": "Okra",
     "des": "Okra is a fascinating fruit with delicious and nutritious qualities",
-    "image": "../public/static/img/img1.png",
+    "image": "../../public/static/img/okra.png",
     "category": "vegetables",
     "price": 5
   },
