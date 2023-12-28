@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import { FaUserAlt } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaUserAlt, FaSearch } from "react-icons/fa";
+import { Link, useLocation } from "react-router-dom";
 
 const Navbar = () => {
   const [isSticky, setSticky] = useState(false);
+  const location = useLocation();
 
   // handle scroll function
   useEffect(() => {
@@ -22,13 +23,66 @@ const Navbar = () => {
       window.addEventListener("scroll", handleScroll);
     };
   }, []);
-  const navItems = <></>;
+  const navItems = (
+    <>
+      <li tabIndex={0}>
+        <details className="relative">
+          <summary className="w-35 cursor-pointer">Categories</summary>
+          <ul className="p-2 w-60 flex flex-col items-center absolute top-full left-0 bg-white border border-base-300 shadow z-[2] max-h-40 overflow-y-auto">
+            <li>
+              <Link
+                to="/allproducts"
+                className={location.pathname === "/allproducts" ? "hidden" : ""}
+              >
+                All
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/vegetables"
+                className={location.pathname === "/vegetables" ? "hidden" : ""}
+              >
+                Vegetables
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/fruits"
+                className={location.pathname === "/fruits" ? "hidden" : ""}
+              >
+                Fruits
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/meat&seafoods"
+                className={
+                  location.pathname === "/meat&seafoods" ? "hidden" : ""
+                }
+              >
+                Meat and Seafoods
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/drinks"
+                className={location.pathname === "/drinks" ? "hidden" : ""}
+              >
+                Drinks
+              </Link>
+            </li>
+          </ul>
+        </details>
+      </li>
+    </>
+  );
+
   return (
-    <header className="max-w-screen-2xl container mx-auto  top-0 left-0 right-0 transition-all duration-300 ease-in-out">
+    <header className="max-w-screen-2xl container shadow-white mx-auto  top-0 left-0 right-0 transition-all duration-300 ease-in-out">
       <div
-        className={`navbar xl:px-24 ${
+        className={`navbar xl:px-24 shadow-lg ${
           isSticky
-            ? "shadow-md bg-base-100 transition-all duration-300 ease-in-out"
+            ? "shadow-md bg-base-100  transition-all duration-300 ease-in-out"
             : ""
         }`}
       >

@@ -9,7 +9,6 @@ import { Vegetables } from "./components/category/Vegetables";
 import { Fruits } from "./components/category/Fruits";
 import { Meat } from "./components/category/Meat";
 import { Drinks } from "./components/category/Drinks";
-import AddCart from "./shop/AddCart";
 import { CartPage } from "./shop/CartPage";
 
 function App() {
@@ -25,7 +24,7 @@ function App() {
           <Route path="/allproducts" element={<All />} />
           <Route path="/vegetables" element={<Vegetables />} />
           <Route path="/fruits" element={<Fruits />} />
-          <Route path="/meat" element={<Meat />} />
+          <Route path="/meat&seafoods" element={<Meat />} />
           <Route path="/drinks" element={<Drinks />} />
           <Route path="/cart-page" element={<CartPage />} />
         </Routes>

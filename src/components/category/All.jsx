@@ -80,19 +80,19 @@ export const All = () => {
   const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   return (
-    <div>
-      <Navbar />
-      <div className="section-container">
-        <div className="flex flex-col md:flex-row flex-wrap md:justify-between items-center space-y-3 mb-8">
-          <div className="flex justify-end mb-4 rounded-sm">
-            <div className="bg-secondary p-2 ">
-              <FaFilter className="text-white h-4 w-4" />
+    <div className="bg-gradient-to-r h-full from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
+      <Navbar className="shadow-lg" />
+      <div className="  flex  flex-col section-container justify-end items-end mt-10 ">
+        <div className="flex flex-col md:flex-row flex-wrap md:justify-between  space-y-3 mb-8">
+          <div className="flex justify-end mb-4 rounded-[5px]">
+            <div className="bg-secondary p-2 rounded-[5px] ">
+              <FaFilter className="text-white h-4 w-4 " />
             </div>
             <select
               id="sort"
               onChange={(e) => handleSortChange(e.target.value)}
               value={sortOption}
-              className="bg-slate-300 text-black px-2 py-1 rounded-sm"
+              className="bg-slate-300 text-center text-black px-2 py-1 rounded-[5px]"
             >
               <option value="default"> Default</option>
               <option value="A-Z">A-Z</option>

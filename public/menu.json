@@ -2,7 +2,8 @@
   {
     "_id": "642c155b2c4774f05c36eeaa",
     "name": "Eggplant",
-    "image": "../../public/static/img/eggplant.jpg",
+    "image": "../../public/static/img/egg.png",
+    "des": "Unleash a burst of vibrant flavor and versatility with the eggplant! ",
     "category": "vegetable",
     "price": 20
   },
@@ -10,54 +11,55 @@
     "_id": "642c155b2c4774f05c36eeb9",
     "name": "Chicken Breast",
     "des": "Fresh poultry",
-    "image": "../../public/static/img/c.jpg",
+    "image": "../../public/static/img/breast.png",
     "category": "meat and seafood",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee7c",
     "name": "Avocado Juice",
-    "image": "../../public/static/img/avo.jpg",
+    "des": "Unleash the Creamy Dream: Introducing Avocado Juice, Nature's Silky Sensation",
+    "image": "../../public/static/img/avo.png",
     "category": "drinks",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36ee88",
     "name": "Apple",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "../../public/static/img/ap.jpg",
+    "des": "Crisp, juicy, and bursting with flavor, the apple isn't just a fruit ",
+    "image": "../../public/static/img/apple.png",
     "category": "fruits",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee7a",
     "name": "Orange",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "../../public/static/img/or.jpg",
+    "des": "A burst of citrus sunshine –boast a radiant glow, skin taut with juicy promise.",
+    "image": "../../public/static/img/orange.png",
     "category": "fruits",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee74",
     "name": "Brocolli",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "../../public/static/img/bro.jpg",
+    "des": "Say goodbye to boring greens, hello to brocco-licious fun!",
+    "image": "../../public/static/img/brocolli.png",
     "category": "vegetable",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee712",
     "name": "Spring Beans",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "../../public/static/img/sb.jpg",
+    "des": "Get your daily dose of vitamin C with delicious spring beans.",
+    "image": "../../public/static/img/beans.png",
     "category": "vegetable",
     "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee7x",
     "name": "Mineral Water",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "../../public/static/img/mw.jpg",
+    "des": "Unleash the Purity: Experience the Untouched Brilliance of Mineral Wate",
+    "image": "../../public/static/img/mw.png",
     "category": "drinks",
     "price": 20
   },
@@ -65,206 +67,207 @@
     "_id": "642c155b2c4774f05c36ee8c",
     "name": "Pork Chop",
     "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "../../public/static/img/pc.jpg",
+    "image": "../../public/static/img/pc.png",
     "category": "meat and seafood",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee94",
     "name": "Soju",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/dess/img1.png",
+    "des": "Soju is a smooth and easy-to-drink spirit. It's perfect for enjoying with friends or family.",
+    "image": "../public/static/img/soju.png",
     "category": "drinks",
     "price": 80
   },
   {
     "_id": "642c155b2c4774f05c36ee9e",
     "name": "Tomato",
-    "des": "Chargrilled chicken with avocado, baby gem lettuce, baby spinach, shallots, French beans, walnuts, croutons and a mustard dressing",
-    "image": "/images/dess/img2.png",
+    "des": "Bite into a juicy, vine-ripened tomato and let the sunshine burst on your taste buds.",
+    "image": "../../public/static/img/tomato.png",
     "category": "vegetable",
     "price": 40
   },
   {
     "_id": "642c155b2c4774f05c36eea6",
     "name": "Okra",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img3.png",
+    "des": "Okra is a fascinating fruit with delicious and nutritious qualities",
+    "image": "../../public/static/img/okra.png",
     "category": "vegetable",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36eeaf",
     "name": "Coke",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/dess/img1.png",
+    "des": "Uncap happiness with a Coke.",
+    "image": "../public/static/img/coke.png",
     "category": "drinks",
     "price": 25
   },
   {
     "_id": "642c155b2c4774f05c36ee89",
     "name": "Grapes",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img2.png",
+    "des": "Grapes are a versatile and delicious fruit, enjoyed fresh an dried",
+    "image": "../../public/static/img/grapes.png",
     "category": "fruits",
-    "price": 100
+    "price": 180
   },
   {
     "_id": "642c155b2c4774f05c36ee8a",
     "name": "Spinach",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/dess/img3.png",
+    "des": "Spinach is a leafy green superfood that's packed with nutrition and flavor",
+    "image": "../public/static/img/spinach.png",
     "category": "vegetable",
     "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee96",
     "name": "Beef Steak",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img1.png",
+    "des": "A gentle press reveals a yielding firmness, promising a melt-in-your-mouth experience.",
+    "image": "../public/static/img/meats.png",
     "category": "meat and seafood",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee81",
     "name": "Chicken Thigh",
-    "des": "Warm goats cheese and roasted vegetable salad with black olive tapenade crostini",
-    "image": "/images/dess/img2.png",
+    "des": "Ditch the dryness, embrace the juiciness! Chicken thighs are no longer the underdog of poultry.s",
+    "image": "../../public/static/img/thigh.png",
     "category": "meat and seafood",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36ee84",
-    "name": "Kalabasa",
-    "image": "/images/dess/img3.png",
+    "name": "Squash",
+    "des": "Squash is packed with vitamins, minerals, and fiber, making it the perfect addition to any healthy diet.",
+    "image": "../public/static/img/squash.png",
     "category": "vegetable",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36eea4",
     "name": "Sayote",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img1.png",
+    "des": "Sayote is a type of squash that has a mild, slightly sweet flavor and a crisp, refreshing textur",
+    "image": "../public/static/img/img1.png",
     "category": "salad",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36eea5",
     "name": "Carrots",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img2.png",
+    "des": "Sweet and juicy flavor: Our carrots are naturally sweet and have a delicious, earthy taste.",
+    "image": "../../public/static/img/carrot.png",
     "category": "vegetable",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee87",
     "name": "Potato",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img3.png",
+    "des": "Unleash your inner glow:Nourish your skin from within with the antioxidant power of potatoes",
+    "image": "../public/static/img/potato.png",
     "category": "vegetable",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee83",
     "name": "Cabbage",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img1.png",
+    "des": "Our cabbages are brimming with vitamins, minerals, and antioxidants.",
+    "image": "../public/static/img/cabbage.png",
     "category": "vegetable",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee7f",
     "name": "Mango",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/dess/img2.png",
+    "des": "A beloved tropical fruit enjoyed around the world for its vibrant colors, luscious sweetness, and versatility. ",
+    "image": "../../public/static/img/mango.png",
     "category": "fruits",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36eea8",
-    "name": "Banana",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img3.png",
+    "name": "banana",
+    "des": "Naturally sweet and luscious: Far from bland or starchy, these bananas are a tropical candy cane.",
+    "image": "../public/static/img/banana.png",
     "category": "fruits",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36eeba",
     "name": "Royal",
-    "des": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans.",
-    "image": "/images/dess/img1.png",
+    "des": "Bubbly beverage boasts regal refinement with every sip.",
+    "image": "../public/static/img/royal.png",
     "category": "drinks",
     "price": 25
   },
   {
     "_id": "642c155b2c4774f05c36ee80",
     "name": "Avocado",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/dess/img2.png",
+    "des": "Experience the velvety texture and buttery bliss of the Royal Avocado.",
+    "image": "../../public/static/img/avocado.png",
     "category": "fruits",
     "price": 20
   },
   {
     "_id": "642c155b2c4774f05c36ee90",
     "name": "Durian",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img3.png",
+    "des": "Durian: The King of Fruits, ready to conquer your taste buds!",
+    "image": "../public/static/img/durian.png",
     "category": "fruits",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36eeb0",
     "name": "Guava",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img1.png",
+    "des": "Unleash a burst of sunshine in every bite with guava, the vibrant fruit bursting with flavor and health!",
+    "image": "../public/static/img/guava.png",
     "category": "fruits",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee8d",
     "name": "Watermelon",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img2.png",
+    "des": "Dive into Summer Oasis: Bite into a Juicy Watermelon Adventure!",
+    "image": "../../public/static/img/watermelon.png",
     "category": "fruits",
     "price": 60
   },
   {
     "_id": "642c155b2c4774f05c36ee8e",
     "name": "Pineapple",
-    "des": "Pan roasted haddock fillet wrapped in smoked French bacon with pea purée and tomato and chive vinaigrette",
-    "image": "/images/dess/img3.png",
+    "des": "Hand-picked at peak perfection, our pineapples are bursting with juicy goodness",
+    "image": "../public/static/img/pineapple.png",
     "category": "fruits",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36eea7",
     "name": "Oyster",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img2.png",
+    "des": "Oysters are a popular seafood item",
+    "image": "../../public/static/img/vitasoy.png",
     "category": "meat and seafood",
     "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee99",
     "name": "Tuna",
-    "des": "Roasted duck breast (served pink) with gratin potato and a griottine cherry sauce",
-    "image": "/images/dess/img1.png",
+    "des": "Dive into Deliciousness: Dive into Tuna!",
+    "image": "../public/static/img/tunas.png",
     "category": "meat and seafood",
     "price": 30
   },
   {
     "_id": "642c155b2c4774f05c36eeb3",
     "name": "Bacon",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img3.png",
+    "des": "Crisp, smoky, and impossibly savory, bacon isn't just breakfast anymore.",
+    "image": "../public/static/img/bacon.png",
     "category": "meat and seafood",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36eeb5",
     "name": "Shrimp",
-    "des": "Sautéed breaded veal escalope with watercress, lemon and veal jus.",
-    "image": "/images/dess/img1.png",
+    "des": "Shrimp has a naturally sweet and delicate flavor that appeals to a wide range of palates.",
+    "image": "../public/static/img/shrimps.png",
     "category": "meat and seafood",
     "price": 9.5
   },
@@ -272,7 +275,7 @@
     "_id": "642c155b2c4774f05c36eeb6",
     "name": "Sausages",
     "des": "Tastylicious",
-    "image": "../../public/static/img/sau.png",
+    "image": "../public/static/img/sau.png",
     "category": "popular",
     "price": 50
   },
@@ -280,7 +283,7 @@
     "_id": "642c155b2c4774f05c36eeb8",
     "name": "Crab",
     "des": "Fresh Crabs",
-    "image": "/images/dess/img3.png",
+    "image": "../public/static/img/crab.png",
     "category": "meat and seafood",
     "price": 20
   },
@@ -288,7 +291,7 @@
     "_id": "642c155b2c4774f05c36ee7e",
     "name": "Beer",
     "des": "Cold",
-    "image": "../../public/static/img/beer.png",
+    "image": "../public/static/img/beer.png",
     "category": "popular",
     "price": 130
   },
@@ -296,23 +299,23 @@
     "_id": "642c155b2c4774f05c36ee8b",
     "name": "Milk",
     "des": "Fresh Milk",
-    "image": "/images/dess/img2.png",
+    "image": "../public/static/img/milk.png",
     "category": "drinks",
     "price": 30
   },
   {
     "_id": "642c155b2c4774f05c36ee8f",
     "name": "Wine",
-    "des": "Pan roasted pork belly with gratin potato, braised Savoy cabbage, apples, thyme and calvados jus",
-    "image": "/images/dess/img3.png",
+    "des": "Unleash a cascade of vibrant flavors with wine",
+    "image": "../public/static/img/wine.png",
     "category": "drinks",
     "price": 250
   },
   {
     "_id": "642c155b2c4774f05c36ee91",
     "name": "Sprite",
-    "des": "Chargrilled fresh tuna steak (served medium rare) on classic Niçoise salad with French beans",
-    "image": "/images/dess/img1.png",
+    "des": "Relaxing and sparkling drinks",
+    "image": "../public/static/img/sprite.png",
     "category": "drinks",
     "price": 25
   },
@@ -320,7 +323,7 @@
     "_id": "642c155b2c4774f05c36ee97",
     "name": "Coffee",
     "des": "Creamylicious",
-    "image": "../../public/static/img/cof.png",
+    "image": "../public/static/img/cof.png",
     "category": "popular",
     "price": 40
   },
@@ -328,7 +331,7 @@
     "_id": "642c155b2c4774f05c36eea0",
     "name": "Lettuce",
     "des": "Freshly picked",
-    "image": "../../public/static/img/let.jpg",
+    "image": "../public/static/img/let.png",
     "category": "popular",
     "price": 30
   },
@@ -336,7 +339,7 @@
     "_id": "642c155b2c4774f05c36eea9",
     "name": "Bangus",
     "des": "Milky and meaty",
-    "image": "../../public/static/img/bangus.png",
+    "image": "../public/static/img/bangus.png",
     "category": "popular",
     "price": 70
   },
@@ -344,55 +347,54 @@
     "_id": "642c155b2c4774f05c36ee85",
     "name": "Carrots",
     "des": "Sweet and juicy flavor: Our carrots are naturally sweet and have a delicious, earthy taste",
-    "image": "/images/dess/img2.png",
+    "image": "../public/static/img/carrots.png",
     "category": "vegetables",
     "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee93",
-    "name": "Oranges",
-    "des": "Fresh from sun-drenched groves, these oranges haven't seen the inside of a refrigerated truck. They're bursting with the vibrant energy of the orchard, every bite a testament to the care and passion poured into their growth",
-    "image": "/images/dess/img3.png",
+    "name": "Dragon fruit",
+    "des": "Dragon fruit can be eaten fresh, juiced, or used in smoothies, yogurt bowls, and other dishes.",
+    "image": "../public/static/img/dragon.png",
     "category": "fruits",
     "price": 15
   },
   {
     "_id": "642c155b2c4774f05c36ee95",
-    "name": "pork tocino",
-    "des": "Wake up your taste buds with a Filipino breakfast legend! Our pork tocino isn't just bacon's sweeter cousin, it's a flavor fiesta. Tender strips of pork belly, marinated in a secret blend of garlic, sugar, and spices, caramelize to a rich, mahogany glory. Each bite is a sweet-salty tango, exploding with savory undertones and begging for fluffy garlic rice and a runny egg.",
-    "image": "/images/dess/img1.png",
+    "name": "Pork Toccino",
+    "des": "Tender strips of pork belly, marinated in a secret blend of garlic, sugar, and spices, caramelize to a rich, mahogany glory.",
     "category": "meats",
     "price": 50
   },
   {
     "_id": "642c155b2c4774f05c36ee9b",
     "name": "Shrimp",
-    "des": "Dive into delicious with these plump, juicy shrimp! Freshly caught and ready to cook, they burst with pure ocean flavor in every bite. Perfect for quick grills, flavorful stir-fries, or elegant scampi - you choose the adventure!",
-    "image": "/images/dess/img1.png",
+    "des": "Dive into delicious with these plump, juicy shrimp! Freshly caught and ready to cook. ",
+    "image": "../public/static/img/shrimp.png",
     "category": "seafood",
     "price": 16
   },
   {
     "_id": "642c155b2c4774f05c36eeb7",
-    "name": "mogu mogu",
-    "des": "Escape to paradise with mogu mogu. A tropical blend of mango, pineapple, and banana, it's sunshine in a cup. Thick and creamy, it's a taste of summer vacation, anytime you need it.",
-    "image": "/images/dess/mogu.png",
+    "name": "Mogu Mogu",
+    "des": "A tropical blend of mango, pineapple, and banana, it's sunshine in a cup. Thick and creamy",
+    "image": "../public/static/img/mogu.png",
     "category": "drinks",
     "price": 30
   },
   {
     "_id": "642c155b2c4774f05c36ee9c",
     "name": "Sayote",
-    "des": "Sayote is a type of squash that has a mild, slightly sweet flavor and a crisp, refreshing texture. It can be eaten raw, cooked, or pickled, and it's a great addition to salads, stir-fries, and soups.",
-    "image": "/images/dess/img1.png",
+    "des": "Sayote is a type of squash that has a mild, slightly sweet flavor and a crisp, refreshing texture. ",
+    "image": "../../public/static/img/sayote.png",
     "category": "vegetables",
     "price": 12
   },
   {
     "_id": "642c155b2c4774f05c36ee9d",
-    "name": "Banana",
-    "des": "Naturally sweet and luscious: Far from bland or starchy, these bananas are a tropical candy cane, bursting with honeyed goodness.",
-    "image": "/images/dess/img1.png",
+    "name": "Pear",
+    "des": "Pears are a delicious and nutritious fruit that can be enjoyed fresh, cooked, or baked.",
+    "image": "../public/static/img/pear.png",
     "category": "fruits",
     "price": 10
   },
@@ -400,7 +402,7 @@
     "_id": "642c155b2c4774f05c36eeac",
     "name": "Rib eye steak",
     "des": "A cut of beef from the rib section, known for its tenderness, juiciness, and rich flavor.",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/img1.png",
     "category": "meats",
     "price": 100
   },
@@ -408,7 +410,7 @@
     "_id": "642c155b2c4774f05c36eeb4",
     "name": "Dried Marot",
     "des": "Salted and sun-dried, or sometimes smoked, until completely dry and hard.",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/dried.png",
     "category": "soup",
     "price": 239
   },
@@ -416,7 +418,7 @@
     "_id": "642c155b2c4774f05c36ee98",
     "name": "Vitasoy",
     "des": "Vitasoy is a brand of beverages and desserts, primarily known for its soy milk drinks.",
-    "image": "/images/dess/img1.png",
+    "image": "../../public/static/img/vitasoy.png",
     "category": "drinks",
     "price": 25
   },
@@ -424,31 +426,31 @@
     "_id": "642c155b2c4774f05c36ee82",
     "name": "Ampalaya",
     "des": "Ampalaya is incredibly versatile and can be sautéed, stir-fried, stewed, grilled, or stuffed.",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/ampalaya.png",
     "category": "vegetables",
     "price": 10
   },
   {
     "_id": "642c155b2c4774f05c36ee86",
-    "name": "Grapes",
-    "des": "Grapes are a versatile and delicious fruit, enjoyed fresh, dried, and in various processed forms like juice, jam, and wine",
-    "image": "/images/dess/img1.png",
+    "name": "Strawberry",
+    "des": "Each bite is a juicy fiesta of sweetness and tang.",
+    "image": "../public/static/img/strawberry.png",
     "category": "fruits",
-    "price": 100
+    "price": 180
   },
   {
     "_id": "642c155b2c4774f05c36ee9a",
     "name": "Beef Tapa",
     "des": "Beef tapa is a savory Filipino dish of thinly sliced marinated beef, traditionally served as part of a breakfast combination called tapsilog",
-    "image": "/images/dess/img1.png",
-    "category": "meats",
+    "image": "../public/static/img/beef tapa.png",
+    "category": "meat and seafood",
     "price": 390
   },
   {
     "_id": "642c155b2c4774f05c36eeab",
     "name": "Mixed Seafoods",
     "des": "Consists of a combination of shellfish like shrimp, scallops, mussels, clams, and calamari,",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/mixed.png",
     "category": "seafoods",
     "price": 395
   },
@@ -456,7 +458,7 @@
     "_id": "642c155b2c4774f05c36eeb1",
     "name": "Dutchmill",
     "des": "Dutch Mill is a popular brand of fruit-flavored drinks nown for their vibrant colors, refreshing taste, and wide variety of flavors. ",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/dutchmill.png",
     "category": "drinks",
     "price": 20
   },
@@ -464,15 +466,15 @@
     "_id": "642c155b2c4774f05c36eead",
     "name": "Okra",
     "des": "Okra is a fascinating fruit with delicious and nutritious qualities",
-    "image": "/images/dess/img1.png",
+    "image": "../public/static/img/img1.png",
     "category": "vegetables",
     "price": 5
   },
   {
     "_id": "642c155b2c4774f05c36eeae",
-    "name": "Mango",
-    "des": "A beloved tropical fruit enjoyed around the world for its vibrant colors, luscious sweetness, and versatility. ",
-    "image": "/images/dess/img1.png",
+    "name": "Kiwi",
+    "des": "Kiwis are powerhouses of Vitamin C, supporting your immune system. ",
+    "image": "../public/static/img/kiwi.png",
     "category": "fruits",
     "price": 10
   }

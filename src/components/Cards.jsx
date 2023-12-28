@@ -52,7 +52,7 @@ const Cards = ({ item, onAddToCart }) => {
           <img
             src={item.image}
             alt=""
-            className="hover:scale-105 transition-all duration-300 md:h-72"
+            className=" w-40 transition-all duration-300 md:h-72"
           />
         </figure>
       </Link>
@@ -72,7 +72,7 @@ const Cards = ({ item, onAddToCart }) => {
           <h5 className="font-semibold">
             <span className="text-sm text-red">&#8369; </span> {item.price}
           </h5>
-          <Link to="/addcart">
+          <Link to="/cart-page">
             {" "}
             <button
               className="btn bg-green text-white"
