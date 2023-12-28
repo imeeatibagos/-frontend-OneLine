@@ -85,6 +85,10 @@ export const Fruits = () => {
   return (
     <div className="bg-gradient-to-r h-full from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
       <Navbar className="shadow-lg" />
+
+      <div className="section-container text-start mt-10">
+        <h2 className="title text-2xl">Fruits Category</h2>
+      </div>
       <div>
         <div className="flex  flex-col section-container justify-end items-end mt-10">
           <div className="flex flex-col md:flex-row flex-wrap  items-center space-y-3 mb-8">

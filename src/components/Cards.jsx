@@ -12,28 +12,48 @@ const Cards = ({ item, onAddToCart }) => {
   const handleAddToCart = (item) => {
     if (user && user?.email) {
       const cartItem = {
-        id: _id,
-        name,
+        id: _id, // Assuming _id is defined somewhere in your code
+        name, // Assuming name is defined somewhere in your code
         quantity: 1,
-        image,
-        price,
-        image: user.email,
+        image, // Assuming image is defined somewhere in your code
+        price, // Assuming price is defined somewhere in your code
+        userEmail: user.email,
       };
-      fetch("", {
+
+      fetch("/menu.json", {
         method: "POST",
         headers: {
           "content-type": "application/json",
         },
-        body: JSON.stringify(users),
+        body: JSON.stringify(cartItem),
       })
         .then((res) => res.json())
         .then((data) => {
-          console.log(data);
+          // Check if data.insertId is present or not
+          if (data.insertId) {
+            // Handle success if needed
+          } else {
+            // Display an error message using Swal.fire() if data.insertId is not present
+            Swal.fire({
+              title: "Error!",
+              text: "Failed to fetch data from the database.",
+              icon: "error",
+            });
+          }
+        })
+        .catch((error) => {
+          // Handle fetch error and display an error message
+          console.error("Error fetching data:", error);
+          Swal.fire({
+            title: "Error!",
+            text: "Failed to fetch data from the database.",
+            icon: "error",
+          });
         });
     }
+
     onAddToCart(item);
   };
-
   return (
     <div
       to={`/menu/${item._id}`}

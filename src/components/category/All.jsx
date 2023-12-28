@@ -82,6 +82,10 @@ export const All = () => {
   return (
     <div className="bg-gradient-to-r h-full from-[#FAFAFA] from-0% to-[#FCFCFC] to-100%">
       <Navbar className="shadow-lg" />
+
+      <div className="section-container text-start mt-10">
+        <h2 className="title text-2xl">All Categories</h2>
+      </div>
       <div className="  flex  flex-col section-container justify-end items-end mt-10 ">
         <div className="flex flex-col md:flex-row flex-wrap md:justify-between  space-y-3 mb-8">
           <div className="flex justify-end mb-4 rounded-[5px]">

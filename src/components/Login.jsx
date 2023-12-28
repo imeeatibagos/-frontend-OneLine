@@ -46,7 +46,7 @@ export const Login = () => {
 
     if (isValid) {
       if (!(password.length >= 8)) {
-        toast.error("Password must be at least 8 characters");
+        toast.error("Password is not correct!");
         setPasswordError(true);
       } else if (password !== password) {
         toast.error("Password not matched!");
